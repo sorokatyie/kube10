@@ -8,10 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Connect to k3s
-      run: |
-        kubectl get pods -A >> report.log
-
     - name: check pods
       id: check-pods
       run: |

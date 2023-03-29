@@ -1,0 +1,6 @@
+NAMESPACE     NAME                                      READY   STATUS             RESTARTS     AGE
+kube-system   local-path-provisioner-79f67d76f8-ptlf6   1/1     Running            0            13d
+kube-system   coredns-597584b69b-h7d7z                  1/1     Running            0            13d
+kube-system   metrics-server-5f9f776df5-bkgj4           1/1     Running            0            13d
+default       ubuntu                                    1/1     Running            1 (6d ago)   13d
+default       ubuntufail                                0/1     ImagePullBackOff   0            18m
