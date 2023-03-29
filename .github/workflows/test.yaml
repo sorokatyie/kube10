@@ -1,8 +1,7 @@
 name: Check pods
 
 on:
-  workflow_dispatch
-
+  push:
 jobs:
   build:
     name: Check pods kubectl
